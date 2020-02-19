@@ -49,6 +49,8 @@ metadata:
     app: redis
     role: worker
     tier: backend
+  annotations: 
+    harness.io/direct-apply: "true" 
 spec:
   ports:
   - port: 6379
