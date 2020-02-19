@@ -1,0 +1,6 @@
+createNamespace: false
+namespace: ${infra.kubernetes.namespace}
+name: guestbook
+instance: ${serviceVariable.instance}
+image: ${artifact.metadata.image}
+
