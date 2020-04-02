@@ -1,4 +1,4 @@
-createNamespace: false
+createNamespace: true
 namespace: ${infra.kubernetes.namespace}
 name: guestbook
 instance: ${serviceVariable.instance}
