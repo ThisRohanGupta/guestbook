@@ -4,8 +4,6 @@ metadata:
   name: redis-master
   labels:
     app: redis
-  annotations: 
-   harness.io/direct-apply: "true" 
 spec:
   selector:
     matchLabels:
@@ -40,8 +38,6 @@ metadata:
     app: redis
     role: master
     tier: backend
-  annotations: 
-    harness.io/direct-apply: "true" 
 spec:
   ports:
   - port: 6379
