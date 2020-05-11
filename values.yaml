@@ -2,5 +2,5 @@ createNamespace: true
 namespace: ${serviceVariable.namespace}
 name: guestbook
 instance: ${serviceVariable.instance}
-image: ${artifact.metadata.image}
+image: gcr.io/google-samples/gb-frontend:v4
 
