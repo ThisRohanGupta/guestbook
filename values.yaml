@@ -1,6 +1,6 @@
 createNamespace: true
 namespace: ${serviceVariable.namespace}
 name: guestbook
-instance: ${serviceVariable.instance}
+replica: 1
 image: ${artifact.metadata.image}
 
