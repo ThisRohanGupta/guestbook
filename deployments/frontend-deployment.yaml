@@ -9,7 +9,7 @@ spec:
     matchLabels:
       app: {{.Values.name}}
       tier: frontend
-  replicas: {{.Values.instance}}
+  replicas: {{.Values.replica}}
   template:
     metadata:
       labels:
